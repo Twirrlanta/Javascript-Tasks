@@ -85,4 +85,4 @@ if(firstName !== "" && lastName !== && email !== "" && password !== "" && phoneN
     console.log("phonenumber is required")
 } else { 
     console.log("registration failed")
-}
+} 
