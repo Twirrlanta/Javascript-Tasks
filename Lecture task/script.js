@@ -73,5 +73,16 @@
 
 //asnwer:
 
+let firstName = "saba"
+let lastName = "Gigauri"
+let email = "Saba@gmail.com"
+let password = "123321312"
+let phoneNumber = "932847329842"
 
-
+if(firstName !== "" && lastName !== && email !== "" && password !== "" && phoneNumber !== "") {
+    console.log("succesful registration")
+} else if (phoneNumber === "") {
+    console.log("phonenumber is required")
+} else { 
+    console.log("registration failed")
+}
