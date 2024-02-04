@@ -1,0 +1,31 @@
+@media screen and (min-width: 1140px) {
+    body {
+        background-image: url(./IMG/desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 200px;
+    }
+    
+    .container {
+        max-width: 1140px;
+        display: flex;
+        align-items: center;
+        background-size: 100%;
+    }
+
+    #id2 {
+        display: none;
+    }
+
+    .todo {
+        width: 540px;
+    }
+
+    #list {
+        width: 540px;
+        margin-top: 16px;
+    }
+
+    .wrapper {
+        gap: 410px;
+    }
+}
