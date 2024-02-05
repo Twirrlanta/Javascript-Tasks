@@ -28,7 +28,7 @@ function addTask() {
 
     const li = document.createElement("li");
     li.innerHTML = `
-      <div style="display: flex; gap: 20px; justify-content: space-around; align-items: center">
+      <div style="display: flex; justify-content: space-between; align-items: center ; margin-left:-20px; padding-right-20px ">
           <input type="checkbox" class="check">
           <span class="list-item">${input.value}</span>
           <button class="btn-1" onclick="Delete">X</button>
